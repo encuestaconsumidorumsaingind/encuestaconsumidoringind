@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta al Consumidor</title>
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    <h1>Encuesta al Consumidor</h1>
+
+
+
+    <form action="https://sheetdb.io/api/v1/p6bo1lv2z209k" method="POST" id="sheetdb-form">
+        <h3>DATOS DE LOCALIZACIÓN (LLENADOS PREVIAMENTE POR EL ENCUESTADOR) </h3>
+        <label for="">Encuestador</label><br>
+        <input type="text" name="data[Encuestador]"placeholder="Nombre Completo"><br>
+
+        
+        <label for="">Macrodistrito</label>
+        <select name="" id="">
+            <option value="">Centro</option>
+            <option value="">Max Paredes</option>
+        </select><br>
+        
+        <label for="">Direccion de aplicacion</label>
+        <input type="text" name="data[Direcction]"><br>
+
+        <label for="">Canal de distribucion</label>
+        <select name="" id="">
+            <option name="data[Canal de distribucion]" value="1">Mayorista</option><br>
+            <option name="data[Canal de distribucion]" value="2">Minorista</option><br>
+            <option name="data[Canal de distribucion]" value="3">Feria</option><br>
+            <option name="data[Canal de distribucion]" value="4">Tienda de Barrio</option><br>
+            <option name="data[Canal de distribucion]" value="5">Supermercado</option><br>
+        </select>
+        <br><br>
+        <h3>Presentacion</h3>
+        Hola, buenos días/tardes. Soy un estudiante universitario de la Universidad Mayor de San Andrés. Estamos desarrollando una encuesta relacionada al consumo de frutas y verduras y por qué la clientela las prefiere. Este proyecto tiene el objetivo de ayudar en el acceso de productos nutritivos al consumidor final ¿Podría regalarme 5 minutos de su tiempo por favor?
+        Hacer una pausa mientras la persona decide. Si él/ella no expresa verbal o físicamente estar de acuerdo inmediatamente o pregunta: ¿qué es lo que necesitas/quieres?, rápidamente responde: 
+        Le haré algunas preguntas sobre los productos que ofrece, la cantidad que ofrece, la frecuencia con que le piden ciertos productos junto con la preferencia de sus clientes. En esta encuesta no le pediremos nombre ni firma y toda la información que nos brinde será completamente confidencial. Además usted puede interrumpir la encuesta si en algún momento tiene preguntas. ¿Cómo ve? ¿Se anima a apoyar con su punto de vista a todos los que tienen tiendas de barrio? 
+        Si la persona no se ha negado a empezar la encuesta hasta este punto, iniciamos con la encuesta. En caso contrario, menciona: 
+        ¡Por favor! Es por una buena causa, queremos que los mercados sigan prosperando a pesar de la gran competencia que para ellas representan otras opciones de compra. Por favor serán sólo 4 minutos. 
+        Si la persona no ha dicho no, empieza la encuesta. 
+        Si la persona se niega nuevamente, agradécele y deséale buen día.
+
+        <h3>SECCION I: Canal de Abastecimiento </h3>
+        <img src="IMAGENES/Zonas.png" alt=""><br>
+        <label for="">¿De que zona Ud viene (Si no identifica el Macrodistrito, mostrar la tabla con las zonas de referencia)</label><br>
+        
+        <select>
+            <option type="radio" name="data[CA1]" value="1">Cotahuma
+            <option type="radio" name="data[CA1]" value="2">Max Paredes
+            <option type="radio" name="data[CA1]" value="3">Periférica
+            <option type="radio" name="data[CA1]" value="4"> San Antonio
+            <option type="radio" name="data[CA1]" value="5">Sur
+            <option type="radio" name="data[CA1]" value="6">Mallasa
+            <option type="radio" name="data[CA1]" value="7">Centro
+        </select>
+        <br><br>
+
+        <label for="">Canal de abastecimiento de su preferencia</label><br>
+            <input type="radio" name="data[CA2]" value="1">Mercado Mayorista El Tejar<br>
+            <input type="radio" name="data[CA2]" value="2">Mercado Minoristas (Ejem.Mercado Uruguay, Mercado Miraflores, Mercado Villa Fátima, Mercado Yungas)<br>
+            <input type="radio" name="data[CA2]" value="3">Ferias Barriales (Ferias que solo ocurren 1 ó 2 veces por semana)<br>
+            <input type="radio" name="data[CA2]" value="4">Tienda de Barrio<br>
+            <input type="radio" name="data[CA2]" value="5">Supermercados<br>
+            <input type="radio" name="data[CA2]" value="6">Otro<br>
+            <!--Completar con un espacio para llenado-->
+        <br><br>
+
+        <label for="">Puede encontrar todos estos productos en su lugar preferente de compra</label>
+            <input type="checkbox" name="data[CA3]" value="1">Papa
+            <input type="checkbox" name="data[CA3]" value="1">Cebolla
+            <input type="checkbox" name="data[CA3]" value="1">Tomate
+            <input type="checkbox" name="data[CA3]" value="1">Banana
+            <input type="checkbox" name="data[CA3]" value="1">Manzana
+        
+        <br><br>
+        
+        <label for="">Si no encuentra los productos en su lugar preferente de donde compra frutas y verduras </label><br>
+            <input type="radio" name="data[CA4]" value="1">Mercado Mayorista El Tejar
+            <input type="radio" name="data[CA4]" value="2">Mercado Minoristas (Ejem.Mercado Uruguay, Mercado Miraflores, Mercado Villa Fátima, Mercado Yungas)
+            <input type="radio" name="data[CA4]" value="3">Ferias Barriales (Ferias que solo ocurren 1 ó 2 veces por semana)
+            <input type="radio" name="data[CA4]" value="4">Tienda de Barrio
+            <input type="radio" name="data[CA4]" value="5">Supermercados
+            <input type="radio" name="data[CA4]" value="6">Otro
+            <!--Completar con un espacio para llenado-->
+        <br><br>
+        
+        <h3>SECCION II: Nivel Socioeconomico </h3>
+
+        <label for="">a persona que toma las decisiones de compra de frutas y verduras en su hogar es:</label><br>
+            <input type="radio" name="data[NS1]" value="1">Mujer<br>
+            <input type="radio" name="data[NS1]" value="2">Varón<br>
+        <br><br>
+    
+        <label for="">La edad de la persona que toma las decisiones de compra para la compra de frutas y verduras oscila entre el rango:</label><br>
+            <input type="radio" name="data[NS2]" value="1">19-27 años<br>
+            <input type="radio" name="data[NS2]" value="2">28-36 años<br>
+            <input type="radio" name="data[NS2]" value="3">36-50 años<br>
+            <input type="radio" name="data[NS2]" value="4">51-65 años<br>
+            <input type="radio" name="data[NS2]" value="5">>65 años
+        <br><br>
+
+        <label for="">La persona que toma las decisiones de compra lo hace usualmente para alimentar a:</label><br>
+        <select>
+            <option type="radio" name="data[NS3]" value="1">1 persona
+            <option type="radio" name="data[NS3]" value="2">2 personas
+            <option type="radio" name="data[NS3]" value="3">3 personas
+            <option type="radio" name="data[NS3]" value="4">4 personas
+            <option type="radio" name="data[NS3]" value="5">Más de 4 personas 
+        
+        </select> 
+        <br><br>
+
+        <label for="">Cantidad de comidas que consume su familia al dia</label><br>
+        <select>
+            <option type="radio" name="data[NS4]" value="1">1 vez al dia
+            <option type="radio" name="data[NS4]" value="2">2 veces al dia
+            <option type="radio" name="data[NS4]" value="3"></option>3 veces al dia
+            <option type="radio" name="data[NS4]" value="4">Más de 3 veces  
+        </select>
+        <br><br>
+
+        <h3>Condicion</h3>
+
+        <label for="">Encuentra Papa, Cebolla y Tomate en el mismon mercado de su preferencia</label><br>
+        
+        <input type="radio" name="data[Condicion]" value="1">Si<br>
+        <input type="radio" name="data[Condicion]" value="2">No<br><br>
+
+        <!--Si es Si-->
+        <h3>SECCION III: Caracteristicas logisticas de Papa, Cebolla y Tomate</h3>
+        <label for="">¿Cuántas veces a la semana acude al lugar de compra de su preferencia para comprar... </label><br>
+        <label for="">...papa?</label>        <label for="">...cebolla?</label>        <label for="">...Tomate?</label><br>
+        Diariamente<input type="radio" name="PCT1a" value="1"><input type="radio" name="PCT1b" value="1"><input type="radio" name="PCT1c" value="1"><br>
+        1 vez a la semana<input type="radio" name="PCT1a" value="2"><input type="radio" name="PCT1b" value="2"><input type="radio" name="PCT1c" value="2"><br>
+        2 veces a la semana<input type="radio" name="PCT1a" value="3"><input type="radio" name="PCT1b" value="3"><input type="radio" name="PCT1c" value="3"><br>
+        3 veces a la semana<input type="radio" name="PCT1a" value="4"><input type="radio" name="PCT1b" value="4"><input type="radio" name="PCT1c" value="4"><br>
+        1 vez al mes<input type="radio" name="PCT1a" value="5"><input type="radio" name="PCT1b" value="5"><input type="radio" name="PCT1c" value="5"><br><br>
+        <br><br>
+
+        <label for="">¿Cuál es la distancia a su lugar de preferencia para comprar... </label><br>
+        <label for="">...papa?</label>        <label for="">...cebolla?</label>        <label for="">...Tomate?</label><br>
+        Diariamente<input type="radio" name="PCT2a" value="1"><input type="radio" name="PCT2b" value="1"><input type="radio" name="PCT2c" value="1"><br>
+        1 vez a la semana<input type="radio" name="PCT2a" value="2"><input type="radio" name="PCT2b" value="2"><input type="radio" name="PCT2c" value="2"><br>
+        2 veces a la semana<input type="radio" name="PCT2a" value="3"><input type="radio" name="PCT2b" value="3"><input type="radio" name="PCT2c" value="3"><br>
+        3 veces a la semana<input type="radio" name="PCT2a" value="4"><input type="radio" name="PCT2b" value="4"><input type="radio" name="PCT2c" value="4"><br>
+        1 vez al mes<input type="radio" name="PCT2a" value="5"><input type="radio" name="PCT2b" value="5"><input type="radio" name="PC2c" value="5"><br><br>
+        <br><br>
+
+        <label for="">¿Qué cantidad de papa compra usualmente?</label>
+        <input type="radio" name="data[PCT3a]" value="1">Menor a 1/4 arroba<br>
+        <input type="radio" name="data[PCT3a]" value="2">1/4 arroba<br>
+        <input type="radio" name="data[PCT3a]" value="3">½ arroba<br>
+        <input type="radio" name="data[PCT3a]" value="4">1 arroba<br>
+        <input type="radio" name="data[PCT3a]" value="5">Mayor a 1 arroba<br>
+        <input type="radio" name="data[PCT3a]" value="6">Otro<br><br>
+
+        <label for="">¿Qué cantidad de cebolla compra usualmente?</label>
+        <input type="radio" name="data[PCT3b]" value="1">Menor a 1/4 arroba<br>
+        <input type="radio" name="data[PCT3b]" value="2">1/4 arroba<br>
+        <input type="radio" name="data[PCT3b]" value="3">½ arroba<br>
+        <input type="radio" name="data[PCT3b]" value="4">1 arroba<br>
+        <input type="radio" name="data[PCT3b]" value="5">Mayor a 1 arroba<br>
+        <input type="radio" name="data[PCT3b]" value="6">Otro<br><br>
+
+        <label for="">¿Qué cantidad de tomate compra usualmente?</label>
+        <input type="radio" name="data[PCT3c]" value="1">1 lb<br>
+        <input type="radio" name="data[PCT3c]" value="2">2 lb<br>
+        <input type="radio" name="data[PCT3c]" value="3">3 lb<br>
+        <input type="radio" name="data[PCT3c]" value="4">mayor a 2 lb<br>
+        <input type="radio" name="data[PCT3c]" value="5">otro<br><br>
+
+
+        <label for="">Encuentra Banana y Manzana en el mismon mercado de su preferencia</label><br>
+        
+        <input type="radio" name="data[Condicion 2]" value="1">Si<br>
+        <input type="radio" name="data[Condicion 2]" value="2">No<br><br>
+
+        <!--Si es Si-->
+        <h3>SECCION IV: Caracteristicas logisticas de Banana y Manzana</h3>
+        <label for="">¿Cuántas veces a la semana acude al lugar de compra de su preferencia para comprar... </label><br>
+        <label for="">...banana?</label>        <label for="">...manzana?</label>        <br>
+        Diariamente<input type="radio" name="BM1a" value="1"><input type="radio" name="BM1b" value="1"><br>
+        1 vez a la semana<input type="radio" name="BM1a" value="2"><input type="radio" name="BM1b" value="2"><br>
+        2 veces a la semana<input type="radio" name="BM1a" value="3"><input type="radio" name="BM1b" value="3"><br>
+        3 veces a la semana<input type="radio" name="BM1a" value="4"><input type="radio" name="BM1b" value="4"><br>
+        1 vez al mes<input type="radio" name="BM1a" value="5"><input type="radio" name="BM1b" value="5"><br><br>
+        <br><br>
+
+        <label for="">¿Cuál es la distancia a su lugar de preferencia para comprar... </label><br>
+        <label for="">...banana?</label>        <label for="">...manzana?</label>        <br>
+        menor a 2 cuadras<input type="radio" name="BM2a" value="2"><input type="radio" name="BM2b" value="2"><br>
+        2 - 5 cuadras<input type="radio" name="BM2a" value="3"><input type="radio" name="BM2b" value="3"><br>
+        6-8 cuadras<input type="radio" name="BM2a" value="4"><input type="radio" name="BM2b" value="4"><br>
+        mayor a 8 cuadras<input type="radio" name="BM2a" value="5"><input type="radio" name="BM2b" value="5"><br><br>
+        <br><br>
+
+
+        <label for="">¿Cuánto compra de banana?</label>
+            <input type="radio" name="B" value="1">Dos manos de banana (50 unidades)
+            <input type="radio" name="B" value="2">Una mano de banana (25 unidades)
+            <input type="radio" name="B" value="3">Mitad de una mano de banana (12 unidades)
+            <input type="radio" name="B" value="4">Menos de 12 unidades
+            <input type="radio" name="B" value="5">Otro
+
+        <label for="">¿Cuánto compra de manzana?</label>
+        <input type="radio" name="M" value="1">Una caja de manzana
+        <input type="radio" name="M" value="2">Media Caja de manzana
+        <input type="radio" name="M" value="3">Monton de 4 u x 10 Bs
+        <input type="radio" name="M" value="4">Monton de 5 u x 10 Bs
+        <input type="radio" name="M" value="5">Montón de 6 u x 10 Bs
+        
+        
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+        <!--Si es No-->
+
+
+
+
+        <label>SECCION IV: Factores que influyen en la compra de frutas y verduras</label>
+        <label>Piense en sus compras y divida el 100% en los siguientes canales de distribucion:</label><br>
+            <input type="text" name="data[NS5]">Mercado Mayorista (El Tejar o Rodriguez)<br>
+            <input type="text" name="data[NS5]">Mercado Minoristas (Ejem.Mercado Uruguay, Mercado Miraflroes, Mercado Villa Fátima, Mercado Yungas)<br>
+            <input type="text" name="data[NS5]">Ferias Barriales (Ferias que solo ocurren 1 ó 2 veces por semana)<br>
+            <input type="text" name="data[NS5]">Tienda de Barrio<br>
+            <input type="text" name="data[NS5]">Supermercados
+        <br><br>
+
+
+        <label for="">¿Cuán importante es para usted la CERCANÍA a la hora de escoger su lugar de compra?</label><br>
+            <input type="radio" name="data[F1]" value="1">Nada importante<br>
+            <input type="radio" name="data[F1]" value="2">Poco importante<br>
+            <input type="radio" name="data[F1]" value="3">Neutral<br>
+            <input type="radio" name="data[F1]" value="4">Muy importante<br>
+            <input type="radio" name="data[F1]" value="5">Totalmente importante
+        <br><br>
+
+        <label for="">¿Cuán importante es para usted el PRECIO de los productos, a la hora de escoger su lugar de compra?</label><br>
+        <input type="radio" name="data[F2]" value="1">Nada importante<br>
+        <input type="radio" name="data[F2]" value="2">Poco importante<br>
+        <input type="radio" name="data[F2]" value="3">Neutral<br>
+        <input type="radio" name="data[F2]" value="4">Muy importante<br>
+        <input type="radio" name="data[F2]" value="5">Totalmente importante<br><br>
+
+        <label for="">Factor de variedad, En el momento de realizar su compra de frutas y verduras. El lugar de venta es un/una ...</label><br>
+        <input type="radio" name="data[F3]" value="1">Asentamiento (Minorista, Feria u otro) (Tamaño: 1 m2 o Menor a 1 m2)<br>
+        <img src="IMAGENES/ASENTAMIENTO (2).jpg" width="20" height="20"><br>
+        <input type="radio" name="data[F3]" value="2">Tarima (Minorista, Feria u otro)(Tamaño: 1 m2 -  2 m2)<br>
+        <img src="IMAGENES/TARIMA (2).jpg" width="20" height="20"><br>
+        <input type="radio" name="data[F3]" value="3">Almacén (Mayorista, minorista)(Tamaño: Mayor a  2 m2)<br><br>
+        <img src="IMAGENES/ASENTAMIENTO (2).jpg" width="100" height="100"><br>
+
+        <label for="">En el momento de comprar papa, ¿En qué condiciones compra el producto?</label><br>
+        <input type="radio" name="data[F4]" value="1">Color rojizo con raíces<br>
+        <img src="IMAGENES/P1.png" width="100" height="100"><br>
+        <input type="radio" name="data[F4]" value="2">Color rojizo con ojos amarillo<br>
+        <img src="IMAGENES/P2.png" width="100" height="100"><br>
+        <input type="radio" name="data[F4]" value="3">Color amarillo con ojos profundos y aspecto arrugado<br><br>
+        <img src="IMAGENES/P3.png" width="100" height="100"><br>
+
+        <label for="">En el momento de comprar cebolla, ¿En qué condiciones compra el producto?</label><br>
+        <input type="radio" name="data[F5]" value="1">Ovalado con salida del tallo verdoso<br>
+        <img src="IMAGENES/C1 (2).jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F5]" value="2">Ovalado rosado con salida del tallo seco<br>
+        <img src="IMAGENES/C2 (3).jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F5]" value="3">Ovalado rosado, opaco con raíces crecidas<br><br>
+        <img src="IMAGENES/C3 (2).jpg" width="100" height="100"><br>
+
+        <label for="">En el momento de comprar tomate, ¿En qué condiciones compra el producto?</label><br>
+        <input type="radio" name="data[F6]" value="1">Ovalado color rojizo con tonalidades verdes<br>
+        <img src="IMAGENES/T1.jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F6]" value="2">Ovalado color rojizo<br>
+        <img src="IMAGENES/T2.png" width="100" height="100"><br>
+        <input type="radio" name="data[F6]" value="3">Ovalado color amarillo rojizo  y con arrugas<br><br>
+        <img src="IMAGENES/T3.jpg" width="100" height="100"><br>
+
+        <label for="">En el momento de comprar banano, ¿En qué condiciones compra el producto?</label><br>
+        <input type="radio" name="data[F7]" value="1">Muy inmaduro de color verde<br>
+        <img src="IMAGENES/platano inma verde.jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F7]" value="2">Inmaduro de color amarillo con verde<br>
+        <img src="IMAGENES/platano inma amarillo.jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F7]" value="3">Maduro de color amarillo si ninguna peca<br>
+        <img src="IMAGENES/platano maduro ama.jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F7]" value="4">Maduro con un color amarillento con algunas pecas<br>
+        <img src="IMAGENES/platano amarillo con pecas.jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F7]" value="5">Muy maduro con manchas negras en el cuerpo<br><br>
+        <img src="IMAGENES/platano muy maduro.jpg" width="100" height="100"><br>
+
+        <label for="">En el momento de comprar manzana roja, ¿En qué condiciones compra el producto?</label><br>
+        <input type="radio" name="data[F8]" value="1">Inmadura de color verde<br>
+        <img src="IMAGENES/M1 (2).jpg" alt=""><br>
+        <input type="radio" name="data[F8]" value="2">Inmaduro de color rojo con verde<br>
+        <img src="IMAGENES/M1 (3).jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F8]" value="3">Maduro de color rojizo<br>
+        <img src="IMAGENES/M1 (4).jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F8]" value="4">Maduro de color rojizo con pocos tonos de amarillo<br>
+        <img src="IMAGENES/M1 (5).jpg" width="100" height="100"><br>
+        <input type="radio" name="data[F8]" value="5">Muy maduro con tonalidades de rojo y amarillo<br><br>
+        <img src="IMAGENES/M1 (6).jpg" width="100" height="100"><br>
+
+        <h3>SECCION V: Decisiones de Compra</h3>
+        
+        <label for="">Cuando llega al mercado (punto de venta) de su preferencia ¿ya sabe qué va a comprar?</label><br>
+        <input type="radio" name="data[DC1]" value="1">Nunca<br>
+        <input type="radio" name="data[DC1]" value="2">Rara vez<br>
+        <input type="radio" name="data[DC1]" value="3">A veces<br>
+        <input type="radio" name="data[DC1]" value="4">Frecuentemente<br>
+        <input type="radio" name="data[DC1]" value="5">Siempre<br><br>
+
+        <label for="">Cuando llega al mercado (punto de venta) de su preferencia ¿ya sabe a quién va a comprar?</h3><br>
+        <input type="radio" name="data[DC2]" value="1">Nunca<br>
+        <input type="radio" name="data[DC2]" value="2">Rara vez<br>
+        <input type="radio" name="data[DC2]" value="3">A veces<br>
+        <input type="radio" name="data[DC2]" value="4">Frecuentemente<br>
+        <input type="radio" name="data[DC2]" value="5">Siempre<br><br>
+
+        <label for="">Cuando su lugar habitual de compra de papa, cebolla y tomate no se encuentra disponible ¿A qué otro lugar acude?</label><br>
+        <input type="radio" name="data[DC3]" value="1">Mercado Mayorista (El Tejar)<br>
+        <input type="radio" name="data[DC3]" value="2">Mercado Minoristas (Ejem.Mercado Uruguay, Mercado Miraflores,  Mercado Villa Fátima, Mercado Yungas)<br>
+        <input type="radio" name="data[DC3]" value="3">Ferias Barriales (Ferias que solo ocurren 1 o 2 veces por semana)<br>
+        <input type="radio" name="data[DC3]" value="4">Tienda de Barrio<br>
+        <input type="radio" name="data[DC3]" value="5">Supermercados<br>
+        <input type="radio" name="data[DC3]" value="6">Otros<br><br>
+
+        <label for="">Cuando su lugar habitual de compra de banana y manzana no se encuentra disponible ¿A qué otro lugar acude?</label><br>
+        <input type="radio" name="data[DC4]" value="1">Mercado Mayorista (El Tejar)<br>
+        <input type="radio" name="data[DC4]" value="2">Mercado Minoristas (Ejem.Mercado Uruguay, Mercado Miraflores,  Mercado Villa Fátima, Mercado Yungas)<br>
+        <input type="radio" name="data[DC4]" value="3">Ferias Barriales (Ferias que solo ocurren 1 o 2 veces por semana)<br>
+        <input type="radio" name="data[DC4]" value="4">Tienda de Barrio<br>
+        <input type="radio" name="data[DC4]" value="5">Supermercados<br>
+        <input type="radio" name="data[DC4]" value="6">Otros<br><br>
+
+        <label for="">¿Le gustaría adquirir estos productos en su tienda de barrio más cercana?</label><br>
+        <input type="radio" name="data[DC5]" value="1">Si<br>
+        <input type="radio" name="data[DC5]" value="2">No<br><br>
+
+        <label for="">Actualmente, ¿ por qué no compra en una tienda de barrio los productos mencionados?</label><br>
+        <input type="radio" name="data[DC6]" value="1">Los productos son mas caros<br>
+        <input type="radio" name="data[DC6]" value="2">No venden los productos en la tienda<br>
+        <input type="radio" name="data[DC6]" value="3">Los productos no son frescos o estan muy guardados<br>
+        <input type="radio" name="data[DC6]" value="4">Otro<br><br>   
+        
+
+
+        <input type="submit">
+    </form>
+    <script>
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+        e.preventDefault();
+        fetch(form.action, {
+            method : "POST",
+            body: new FormData(document.getElementById("sheetdb-form")),
+        }).then(
+            response => response.json()
+        ).then((html) => {
+            // you can put any JS code here
+            alert('success')
+        });
+        });
+    </script>
+</body>
+</html>
